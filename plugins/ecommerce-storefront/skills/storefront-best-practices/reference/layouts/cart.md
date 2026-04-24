@@ -242,8 +242,6 @@ Built-in caching with automatic revalidation, optimistic updates support, automa
 **Configuration:**
 Use `useQuery` for fetching cart data, set `staleTime` to 30-60 seconds, use `queryClient.invalidateQueries(['cart'])` after updates.
 
-**See also:** [connecting-to-backend.md](../connecting-to-backend.md) for detailed backend integration patterns.
-
 ### Medusa Integration
 
 Use `@medusajs/medusa-js` SDK:

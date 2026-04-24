@@ -22,8 +22,6 @@ Guide for connecting your storefront to Medusa backend using the [Medusa JS SDK]
 - Working with multi-region stores
 - Handling Medusa-specific pricing and regions
 
-**For general backend patterns**, see `reference/connecting-to-backend.md`.
-
 ## ⚠️ CRITICAL: Follow the 5-Step Verification Workflow
 
 **BEFORE writing code that calls Medusa SDK methods**, follow the mandatory workflow from SKILL.md:

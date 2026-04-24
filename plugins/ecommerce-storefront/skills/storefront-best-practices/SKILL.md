@@ -41,7 +41,6 @@ Comprehensive guidance for building modern, high-converting ecommerce storefront
 **Load these references based on what you're implementing:**
 
 - **Starting a new storefront?** → MUST load `reference/design.md` first to discover user preferences
-- **Connecting to backend API?** → MUST load `reference/connecting-to-backend.md` first
 - **Connecting to Medusa backend?** → MUST load `reference/medusa.md` for SDK setup, pricing, regions, and Medusa patterns
 - **Implementing homepage?** → MUST load `reference/components/navbar.md`, `reference/components/hero.md`, `reference/components/footer.md`, and `reference/layouts/home-page.md`
 - **Implementing navigation?** → MUST load `reference/components/navbar.md` and optionally `reference/components/megamenu.md`
@@ -196,7 +195,6 @@ Each reference file contains decision frameworks with specific criteria to help 
 ### General
 
 ```
-reference/connecting-to-backend.md    - Framework detection, API setup, backend integration patterns
 reference/medusa.md                    - Medusa SDK integration, pricing, regions, TypeScript types
 reference/design.md                    - User preferences, brand identity, design systems
 reference/seo.md                       - Meta tags, structured data, Core Web Vitals
@@ -248,7 +246,7 @@ reference/features/promotions.md       - Promotional banners, discount codes, sa
 
 ```
 1. Discovery Phase → Read design.md for user preferences
-2. Foundation Setup → Read connecting-to-backend.md (or medusa.md for Medusa), mobile-responsiveness.md, seo.md
+2. Foundation Setup → Read medusa.md for Medusa projects, mobile-responsiveness.md, seo.md
 3. Core Components → Implement navbar.md, footer.md
 4. Home Page → Read home-page.md
 5. Product Browsing → Read product-listing.md, product-card.md, search.md
@@ -302,7 +300,7 @@ Before implementing, consider:
 - Need powerful promotion and discount engine
 - Require flexible product modeling
 
-For detailed Medusa integration guidance, see `reference/medusa.md`. For general backend patterns, see `reference/connecting-to-backend.md`.
+For detailed Medusa integration guidance, see `reference/medusa.md`.
 
 ### Framework Agnostic
 
